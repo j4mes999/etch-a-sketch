@@ -1,0 +1,12 @@
+.grid{
+  border: 1px solid black;
+  width: 600px;
+  height: 600px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.square{
+  border: 1px dotted black;
+}
+

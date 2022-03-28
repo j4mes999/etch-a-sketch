@@ -28,7 +28,7 @@ function drawGrid(){
     //add the eventListeners
     const pixel = document.querySelectorAll(".square");
     pixel.forEach(elem => elem.addEventListener("mouseover",() =>{
-        changeColor("red",elem)
+        changeColor("#8acadd",elem)
     }));
 }
 

@@ -1,15 +1,42 @@
+Body{
+  background-color: black;
+}
+
 .grid{
-  border: 1px solid black;
+  border: 1px solid b3ff51;
   width: 600px;
   height: 600px;
   display: grid;
   grid-template-columns: auto auto auto;
+  box-shadow: 0 0 1px #b3ff51, 0 0 2px #b3ff51, 0 0 6px #b3ff51, 0 0 12px #b3ff51, inset 0 0 1px #b3ff51, inset 0 0 2px #b3ff51, inset 0 0 6px #b3ff51, inset 0 0 12px #b3ff51;
+  
 }
 
 .square{
-  border: 1px dotted black;
+  border: 1px dotted rgb(243, 233, 233);
 }
 
 h1{
-    align-content: center;
+    text-align: center;
+    color: #b3ff51;
+    font-weight: 700;
+}
+
+.div-button,
+.grid-container{
+  display: flex;
+  justify-content:  center;
+}
+
+.div-button{
+  margin-bottom: 21px;
+}
+
+button{
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(147, 163, 255);
+  padding: 10px;
+  color: antiquewhite;
+  font-weight: 700;
 }
